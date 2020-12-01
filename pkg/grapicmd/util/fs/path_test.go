@@ -21,8 +21,8 @@ func Test_GetImportPath(t *testing.T) {
 	}{
 		{
 			test: "inside of GOPATH",
-			in:   "/home/go/src/github.com/izumin5210/testapp",
-			out:  "github.com/izumin5210/testapp",
+			in:   "/home/go/src/github.com/lehajam/testapp",
+			out:  "github.com/lehajam/testapp",
 		},
 		{
 			test: "directly under GOPATH",
@@ -65,8 +65,8 @@ func Test_GetPackageName(t *testing.T) {
 	}{
 		{
 			test: "inside of GOPATH",
-			in:   "/home/go/src/github.com/izumin5210/testapp",
-			out:  "izumin5210.testapp",
+			in:   "/home/go/src/github.com/lehajam/testapp",
+			out:  "lehajam.testapp",
 		},
 		{
 			test: "directly under GOPATH",

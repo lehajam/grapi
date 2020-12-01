@@ -1,7 +1,7 @@
 package gencmd
 
 import (
-	"github.com/izumin5210/grapi/pkg/grapicmd"
+	"github.com/lehajam/grapi/pkg/grapicmd"
 )
 
 // Option configures a command context.

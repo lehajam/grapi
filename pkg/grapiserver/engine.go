@@ -5,7 +5,7 @@ import (
 	"net"
 	"reflect"
 
-	"github.com/izumin5210/grapi/pkg/grapiserver/internal"
+	"github.com/lehajam/grapi/pkg/grapiserver/internal"
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
 )

@@ -12,8 +12,8 @@ import (
 
 	"github.com/izumin5210/clig/pkg/clib"
 	"github.com/izumin5210/execx"
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/protoc"
+	"github.com/lehajam/grapi/pkg/cli"
+	"github.com/lehajam/grapi/pkg/protoc"
 )
 
 // Ctx contains the runtime context of grpai.

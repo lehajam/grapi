@@ -5,9 +5,9 @@ package svcgen
 import (
 	"github.com/google/wire"
 
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	"github.com/izumin5210/grapi/pkg/protoc"
+	"github.com/lehajam/grapi/pkg/cli"
+	"github.com/lehajam/grapi/pkg/gencmd"
+	"github.com/lehajam/grapi/pkg/protoc"
 )
 
 func NewApp(*gencmd.Command) (*App, error) {

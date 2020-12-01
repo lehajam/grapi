@@ -311,7 +311,7 @@ func updateServerImpl(t *testing.T, rootPath string) {
 						&ast.ImportSpec{
 							Path: &ast.BasicLit{
 								Kind:  token.STRING,
-								Value: strconv.Quote("github.com/izumin5210/grapi/pkg/grapiserver"),
+								Value: strconv.Quote("github.com/lehajam/grapi/pkg/grapiserver"),
 							},
 						},
 						&ast.ImportSpec{

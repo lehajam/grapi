@@ -8,7 +8,7 @@ import (
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/izumin5210/grapi/pkg/grapiserver/internal"
+	"github.com/lehajam/grapi/pkg/grapiserver/internal"
 	"github.com/pkg/errors"
 )
 

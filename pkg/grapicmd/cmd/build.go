@@ -5,8 +5,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/srvc/appctx"
 
-	"github.com/izumin5210/grapi/pkg/grapicmd"
-	"github.com/izumin5210/grapi/pkg/grapicmd/di"
+	"github.com/lehajam/grapi/pkg/grapicmd"
+	"github.com/lehajam/grapi/pkg/grapicmd/di"
 )
 
 func newBuildCommand(ctx *grapicmd.Ctx) *cobra.Command {

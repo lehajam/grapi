@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/bradleyjkemp/cupaloy/v2"
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	"github.com/izumin5210/grapi/pkg/grapicmd/util/fs"
+	"github.com/lehajam/grapi/pkg/cli"
+	"github.com/lehajam/grapi/pkg/gencmd"
+	"github.com/lehajam/grapi/pkg/grapicmd/util/fs"
 	"github.com/spf13/afero"
 )
 

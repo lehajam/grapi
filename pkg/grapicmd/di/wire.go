@@ -7,11 +7,11 @@ import (
 	"github.com/izumin5210/clig/pkg/clib"
 	"github.com/izumin5210/gex/pkg/tool"
 
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
-	"github.com/izumin5210/grapi/pkg/grapicmd/internal/module"
-	"github.com/izumin5210/grapi/pkg/grapicmd/internal/usecase"
-	"github.com/izumin5210/grapi/pkg/protoc"
+	"github.com/lehajam/grapi/pkg/cli"
+	"github.com/lehajam/grapi/pkg/grapicmd"
+	"github.com/lehajam/grapi/pkg/grapicmd/internal/module"
+	"github.com/lehajam/grapi/pkg/grapicmd/internal/usecase"
+	"github.com/lehajam/grapi/pkg/protoc"
 )
 
 func NewUI(*grapicmd.Ctx) cli.UI {

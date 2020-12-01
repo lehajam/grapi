@@ -5,10 +5,10 @@ import (
 
 	"github.com/bradleyjkemp/cupaloy/v2"
 	"github.com/izumin5210/clig/pkg/clib"
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	gencmdtesting "github.com/izumin5210/grapi/pkg/gencmd/testing"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
+	"github.com/lehajam/grapi/pkg/cli"
+	"github.com/lehajam/grapi/pkg/gencmd"
+	gencmdtesting "github.com/lehajam/grapi/pkg/gencmd/testing"
+	"github.com/lehajam/grapi/pkg/grapicmd"
 	"github.com/spf13/afero"
 )
 
